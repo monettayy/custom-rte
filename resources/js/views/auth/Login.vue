@@ -41,7 +41,7 @@ const login = () => {
                       id="exampleInputEmail"
                       aria-describedby="emailHelp"
                       v-model="form.username"
-                      placeholder="Enter Username..."
+                      placeholder="Username"
                     />
                   </div>
                   <div class="form-group">

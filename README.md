@@ -49,6 +49,19 @@ Go to the .env File and put your database credentials
     DB_DATABASE=your-database-here
     DB_USERNAME=root
     DB_PASSWORD=
+    
+
+In your terminal run:
+    
+    php artisan migrate
+    php artisan db:seed
+
+*This is to seed the login credentials and sample Blog
+
+To login in the website, use this seeded credentials:
+    
+    useraname:  admin
+    password:   secret
 
 
 ## Resources
